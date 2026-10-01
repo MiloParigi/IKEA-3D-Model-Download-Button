@@ -1,5 +1,11 @@
 # IKEA 3D Model Downloader
 
+> **Fork addition: IVAR planner 3D export.** This fork also provides
+> [`ikea-ivar-planner-export.user.js`](ikea-ivar-planner-export.user.js), which exports a design
+> from IKEA's online IVAR planner as OBJ + MTL + textures, ready for Sweet Home 3D. See
+> [IVAR-PLANNER-EXPORT.md](IVAR-PLANNER-EXPORT.md). The original product-page downloader below is
+> unchanged.
+
 This Tampermonkey script adds a download button for 3D models on IKEA product pages, allowing you to easily save .GLB files of IKEA furniture and decorations. It works across different language versions of IKEA websites and automatically names the downloaded files based on the product name and color. The files can be opened in 3D software like Blender. This allows you to try out the furniture in your own 3D home planning software before making a purchase decision.
 
 UPDATE: 30.01.2026 - Bugfix
